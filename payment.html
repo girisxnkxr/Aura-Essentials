@@ -11,7 +11,7 @@
 <div class="container">
   <h2>Payment Details</h2>
 
-  <form id="payment-form" onsubmit="handlePayment(event)">
+  <form id="payment-form" onsubmit="handle(event)">
     <h3>Billing Information</h3>
     <div class="form-group">
       <label for="fullname">Full Name</label>
@@ -47,7 +47,7 @@
 </div>
 
 <script>
-  function handlePayment(e) {
+  function handle(e) {
     e.preventDefault();
     alert("Payment successful! Thank you for shopping with Aura Essentials.");
     localStorage.removeItem("cart");

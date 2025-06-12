@@ -53,8 +53,8 @@
 <script>
   const params = new URLSearchParams(window.location.search);
   const image = params.get('image');
-  const title = params.get('title') || 'Product Title';
-  const price = params.get('price') || '2999';
+  const title = params.get('title');
+  const price = params.get('price');
 
   const imagePath = 'images/images/' + image;
 

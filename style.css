@@ -39,7 +39,6 @@ header {
 }
 
 
-/* Navigation links */
 .topnav {
   display: flex;
   gap: 15px;
@@ -224,6 +223,7 @@ header {
   .p{
     flex-direction: column;
     margin-left: 30px;
+    align-items: center;
   }
   .nav-container {
     flex-direction: column;
