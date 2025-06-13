@@ -121,4 +121,15 @@ body {
     width: 100%;
   }
 }
-
+.floating-home {
+  position: fixed;
+  top: 20px;
+  left: 30px;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  z-index: 0;
+  font-weight: bold;
+}
